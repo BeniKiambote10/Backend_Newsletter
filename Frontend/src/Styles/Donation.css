@@ -1,0 +1,216 @@
+/* #F5A623 */
+.donation-page-container {
+  background-color: #f9f9f9;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.donation-page-hero-section {
+  background-image: url("https://www.unitedwayofyc.org/wp-content/uploads/united-way-of-york-county.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.donation-page-hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 1000;
+  margin-bottom: 10px;
+}
+
+.donation-page-bold-goal {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffb351;
+}
+
+.donation-page-hero-section p {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.donation-page-banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.donation-page-info-box {
+  position: absolute;
+  top: 550px;
+  left: 110px;
+  width: 550px;
+  background-color: #005291cd;
+  color: white;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  text-align: left;
+  max-width: 90%;
+}
+
+.info-box-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.info-box-description {
+  font-size: 14px;
+}
+
+.donation-page-form {
+  padding: 30px;
+  border-radius: 8px;
+  max-width: fit-content;
+  margin: 20px auto;
+}
+
+.donation-page-form label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.donation-page-amount-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.donation-page-amount-options button {
+  padding: 10px 20px;
+  border: 2px solid #f5a623;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #f5a623;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.donation-page-amount-options button.active,
+.donation-page-amount-options button:hover {
+  background-color: #f5a623;
+  color: #fff;
+}
+
+.donation-page-amount-options input {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 120px;
+}
+
+.donation-page-donor-information input,
+.donation-page-donor-information select,
+.donation-page-payment-options select,
+.donation-page-comments textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.donation-page-payment-options p {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.donation-page-comments textarea {
+  height: 120px;
+}
+
+.donation-page-consent {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.donation-page-consent input {
+  margin-right: 10px;
+}
+
+.donation-page-submit-section {
+  text-align: center;
+}
+
+.donation-page-submit-section p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.donation-page-submit-section button {
+  padding: 10px 20px;
+  background-color: #f5a623;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.donation-page-submit-section button:hover {
+  background-color: #d08a19;
+}
+
+@media (max-width: 1016px) {
+  .donation-page-info-box {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .donation-page-hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .donation-page-bold-goal {
+    font-size: 1.5rem;
+  }
+
+  .donation-page-hero-section p {
+    font-size: 1rem;
+  }
+
+  .donation-page-info-box {
+    top: 10px;
+    left: 10px;
+    width: 80%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .donation-page-hero-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .donation-page-bold-goal {
+    font-size: 1.2rem;
+  }
+
+  .donation-page-hero-section p {
+    font-size: 0.9rem;
+  }
+
+  .donation-page-info-box {
+    top: 5px;
+    left: 5px;
+    width: 90%;
+    padding: 10px;
+    font-size: 12px;
+  }
+}
